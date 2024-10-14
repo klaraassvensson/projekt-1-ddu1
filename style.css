@@ -173,6 +173,16 @@ main{
     gap: 20px;
     margin-top: 50px;
 }
+#container-5 img{
+    width: 25px;
+}
+#container-5 a{
+    color: black
+}
+#border-sides{
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;;
+}
 /* Anpassa till mobil */
 
 /* Anpassa för surfplatta */
