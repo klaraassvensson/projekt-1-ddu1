@@ -183,6 +183,42 @@ main{
     border-left: 1px solid #e5e5e5;
     border-right: 1px solid #e5e5e5;;
 }
+#container-6 h2,
+#con-6-statistics{
+    text-align: center;
+    margin: 50px 0;
+}
+#con-6-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+#con-6-grid img{
+    width: 100%;
+}
+#con-6-grid a{
+    color: #7f7f7f;
+    text-decoration: underline;
+}
+#con-6-statistics{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.procent{
+    color: #666;
+    font-size: 36px;
+    font-weight: bold;
+}
+#con-6-statistics p{
+    margin: 0;
+    font-size: 13px;
+}
+.border-right{
+    border-right: 1px solid #e5e5e5;
+}
+#container-7{
+    text-align: center;
+}
 /* Anpassa till mobil */
 
 /* Anpassa för surfplatta */
