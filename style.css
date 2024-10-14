@@ -93,6 +93,40 @@ main{
 #container-2 img{
     height: 25px;
 }
+.container-3 h2{
+    font-size: 26px;
+}
+.text-3{
+    width: 50%;
+    font-size: 14px;
+}
+.img-3{
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.quote{
+    font-size: 26px;
+    text-align: center;
+    color: #7f7f7f;
+}
+.person{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.portrait{
+   width: 60px;
+}
+.name{
+    font-weight: bold;
+    font-size: 12px;
+}
+.occupation{
+    color: #999999;
+    font-size: 12px;
+}
 /* Anpassa till mobil */
 
 /* Anpassa för surfplatta */
