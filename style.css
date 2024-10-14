@@ -244,6 +244,19 @@ footer{
     width: 30px;
     padding-right: 10px;
 }
+#footer-flex{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#footer-flex a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: #7f7f7f;
+}
+.linkhover:hover{
+    text-decoration: underline;
+}
 /* Anpassa till mobil */
 
 /* Anpassa för surfplatta */
