@@ -64,6 +64,22 @@ body{
     background-color: #353535;
 }
 /* Main - text */
+main{
+    max-width: 1000px;
+    margin: 70px auto 0 auto;
+}
+#container-1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+#container-1 img{
+    width: 100%;
+}
+
+#context-1 h1{
+    font-size: 36px;
+}
 /* Anpassa till mobil */
 
 /* Anpassa för surfplatta */
