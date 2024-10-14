@@ -80,6 +80,19 @@ main{
 #context-1 h1{
     font-size: 36px;
 }
+#container-2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 0;
+}
+#container-2 img{
+    height: 25px;
+}
 /* Anpassa till mobil */
 
 /* Anpassa för surfplatta */
