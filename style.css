@@ -61,6 +61,14 @@ body{
 .getbarky:hover{
     background-color: #353535;
 }
+#hamburger{
+    display: none;
+    padding: 5px;
+}
+#hamburger:hover{
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
 /* Main - text */
 main{
     max-width: 1000px;
@@ -261,10 +269,15 @@ footer{
         display: none;
     }
     #sidhuvud{
-        background-image: url("material/hamburger.svg");
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: 20px;
+        border: transparent;
+        position: relative;
+    }
+    #hamburger{
+        display: flex;
+        width: 15px;
+        position: absolute;
+        right: 0;
+        top: 10px;
     }
     #container-1{
         display: flex;
