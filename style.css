@@ -33,8 +33,6 @@ body{
 }
 #loggabarky{
     width: 100%;
-    background-image: url(material/brand.svg);
-    background-repeat: no-repeat;
 }
 .navigation-right,
 .navigation-left{
@@ -258,6 +256,16 @@ footer{
     text-decoration: underline;
 }
 /* Anpassa till mobil */
+@media (max-width: 600px){
+    #navigation, #barky-mobile{
+        display: none;
+    }
+    #sidhuvud{
+        background-image: url("material/hamburger.svg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 20px;
+    }
 
 /* Anpassa för surfplatta */
 
