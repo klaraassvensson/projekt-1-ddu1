@@ -16,6 +16,9 @@ body{
 .graytext{
     color: #7f7f7f;
 }
+.darkgray{
+    color: #353535;
+}
 /* Header */
 #sidhuvud{
     display: grid;
@@ -73,6 +76,7 @@ body{
 main{
     max-width: 1000px;
     margin: 70px auto 0 auto;
+    padding: 0 15px;
 }
 #container-1{
     display:grid;
@@ -292,6 +296,36 @@ footer{
     .text-3{
         width: 100%;
     }
+    .quote{
+        font-size: 22px;
+    }
+    #con-4-width{
+        width: 100%;
+    }
+    #con-flex,
+    #con-6-grid,
+    #con-6-statistics,
+    #sidfot{
+        display: flex;
+        flex-direction: column;
+    }
+    #con-flex,
+    #con-6-statistics{
+        gap: 40px;
+    }
+    #border-sides,
+    .border-right{
+        border: transparent;
+    }
+    #con-6-grid{
+        text-align: left;
+    }
+    #footer-flex{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
 
 /* Anpassa för surfplatta */
 
