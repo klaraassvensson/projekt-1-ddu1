@@ -11,6 +11,7 @@ body{
     padding: 5px;
     background-color: #121212;
     border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     color: white;
     display: inline-block;
     font-weight: 450;
@@ -37,7 +38,7 @@ body{
     top:0;
     left: 0;
     right: 0;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 #loggabarky{
     width: 100%;
@@ -63,12 +64,16 @@ body{
     border-right: 1px solid #e5e5e5;
 }
 .navhover:hover{
-    background-color: #e5e5e5;
+    background-color: #f4f4f4;
     border-radius: 5px;
 }
 #hamburger{
     display: none;
     padding: 5px;
+    width: 15px;
+    position: absolute;
+    right: 0;
+    top: 5px;
 }
 #hamburger:hover{
     background-color: #f4f4f4;
@@ -88,7 +93,6 @@ main{
 #container-1 img{
     width: 100%;
 }
-
 #context-1 h1{
     font-size: 53px;
     margin-bottom: 0;
@@ -260,7 +264,7 @@ main{
 /* Footer */
 footer{
     border-top: 1px solid #e5e5e5;
-    margin: 50px auto;
+    margin: 50px 5px;
     padding: 0 15px;
 }
 #sidfot{
@@ -296,6 +300,7 @@ footer{
     margin-top: 10px;
     color: #7f7f7f;
     text-decoration: none;
+    font-size: 15px;
 }
 #footer-flex a:hover{
     text-decoration: underline;
@@ -314,10 +319,6 @@ footer{
     }
     #hamburger{
         display: flex;
-        width: 15px;
-        position: absolute;
-        right: 0;
-        top: 10px;
     }
     #container-1{
         display: flex;
@@ -370,6 +371,3 @@ footer{
         margin: 20px 0;
     }
 }
-
-/* Anpassa för surfplatta */
-
