@@ -15,6 +15,7 @@ body{
     color: white;
     display: inline-block;
     font-weight: 450;
+    font-size: 12px;
 }
 .getbarky:hover{
     background-color: #353535;
@@ -51,7 +52,7 @@ body{
     display: flex;
     justify-content: space-between; 
 }
-.navigation-left div,
+.navigation-left a,
 .navigation-right a,
 .navigation-right div{
     padding:  5px;
@@ -131,7 +132,8 @@ main{
 .quote{
     font-size: 36px;
     font-weight: 550;
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
     color: #999;
 }
 .person{
